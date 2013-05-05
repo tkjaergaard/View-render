@@ -5,7 +5,9 @@
     "authors": [
         {
             "name": "t_kjaergaard",
-            "email": "tkj@tkjaergaard.dk"
+            "email": "tkj@tkjaergaard.dk",
+            "homepage": "http://tkjaergaard.dk",
+            "role": "Developer"
         }
     ],
     "require": {
@@ -23,7 +25,4 @@
         }
     },
     "minimum-stability": "dev",
-    "require": {
-
-    }
 }
