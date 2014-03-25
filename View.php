@@ -1,4 +1,4 @@
-<?php namespace Devdk;
+<?php namespace Tkj;
 
 class View {
 
@@ -11,7 +11,9 @@ class View {
                 extract($data,EXTR_SKIP);
 
         ob_start();
-                include $view;
+
+        include $view;
+
         return ob_get_clean();
     }
 
